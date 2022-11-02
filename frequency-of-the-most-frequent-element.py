@@ -12,7 +12,6 @@ class Solution(object):
             k+=nums[i]
             if(k<(nums[i]*(i-j+1))):
                 k-=nums[j]
-                print("here")
                 j+=1
             i+=1
         return i-j
